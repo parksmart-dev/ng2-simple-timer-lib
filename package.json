@@ -1,46 +1,53 @@
 {
-  "name": "ng2-simple-timer-lib",
+  "name": "ng2-simple-timer",
   "version": "11.2.9",
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+  "peerDependencies": {
+    "@angular/common": "^11.2.9",
+    "@angular/core": "^11.2.9",
+    "angular2-uuid": "*"
   },
-  "private": true,
+  "description": "Angular simple timer service",
+  "author": {
+    "name": "John, Sing Dao, Siu",
+    "url": "https://github.com/J-Siu"
+  },
+  "bugs": {
+    "url": "https://github.com/J-Siu/ng2-simple-timer-lib/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/J-Siu/ng2-simple-timer-lib.git"
+  },
+  "keywords": [
+    "angular",
+    "ng",
+    "component",
+    "timer",
+    "example",
+    "simple"
+  ],
+  "license": "MIT",
+  "module": "fesm2015/ng2-simple-timer.mjs",
+  "es2020": "fesm2020/ng2-simple-timer.mjs",
+  "esm2020": "esm2020/ng2-simple-timer.mjs",
+  "fesm2020": "fesm2020/ng2-simple-timer.mjs",
+  "fesm2015": "fesm2015/ng2-simple-timer.mjs",
+  "typings": "ng2-simple-timer.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./ng2-simple-timer.d.ts",
+      "esm2020": "./esm2020/ng2-simple-timer.mjs",
+      "es2020": "./fesm2020/ng2-simple-timer.mjs",
+      "es2015": "./fesm2015/ng2-simple-timer.mjs",
+      "node": "./fesm2015/ng2-simple-timer.mjs",
+      "default": "./fesm2020/ng2-simple-timer.mjs"
+    }
+  },
+  "sideEffects": false,
   "dependencies": {
-    "@angular/animations": "*",
-    "@angular/common": "*",
-    "@angular/compiler": "*",
-    "@angular/core": "*",
-    "@angular/forms": "*",
-    "@angular/platform-browser": "*",
-    "@angular/platform-browser-dynamic": "*",
-    "@angular/router": "*",
-    "angular2-uuid": "*",
-    "rxjs": "~6.6.0",
-    "tslib": "^2.0.0",
-    "zone.js": "~0.11.3"
-  },
-  "devDependencies": {
-    "@angular-devkit/build-angular": "*",
-    "@angular/cli": "*",
-    "@angular/compiler-cli": "*",
-    "@types/jasmine": "~3.6.0",
-    "@types/node": "^12.11.1",
-    "jasmine-core": "*",
-    "jasmine-spec-reporter": "~5.0.0",
-    "karma": "*",
-    "karma-chrome-launcher": "~3.1.0",
-    "karma-coverage": "~2.0.3",
-    "karma-jasmine": "~4.0.0",
-    "karma-jasmine-html-reporter": "*",
-    "ng-packagr": "*",
-    "protractor": "~7.0.0",
-    "ts-node": "~8.3.0",
-    "tslint": "~6.1.0",
-    "typescript": "*"
+    "tslib": "^2.3.0"
   }
 }

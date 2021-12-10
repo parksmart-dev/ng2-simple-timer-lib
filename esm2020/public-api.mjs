@@ -1,0 +1,5 @@
+/*
+ * Public API Surface of ng2-simple-timer
+ */
+export * from './lib/ng2-simple-timer.service';
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicHVibGljLWFwaS5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3Byb2plY3RzL25nMi1zaW1wbGUtdGltZXIvc3JjL3B1YmxpYy1hcGkudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0dBRUc7QUFFSCxjQUFjLGdDQUFnQyxDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiLypcbiAqIFB1YmxpYyBBUEkgU3VyZmFjZSBvZiBuZzItc2ltcGxlLXRpbWVyXG4gKi9cblxuZXhwb3J0ICogZnJvbSAnLi9saWIvbmcyLXNpbXBsZS10aW1lci5zZXJ2aWNlJztcbiJdfQ==
